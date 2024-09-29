@@ -23,7 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-DC-1 has to have a static Private IP Address, Client one will connect to DC-1 and we should also try to ping DC-1. We have to enable ICMPv4 on the firewall on DC-1 in order for the ping to work, but now it will work.
+DC-1 has to have a static Private IP Address, Client one will connect to DC-1 and we should also try to ping DC-1. We have to enable ICMPv4 on the firewall on DC-1 in order for the ping to work now, since it previously was not working.
 
 ![image](https://github.com/MatthewTulloch/configure-ad/assets/165750459/9443cda2-afd2-400c-a577-7cdf53021820)
 
